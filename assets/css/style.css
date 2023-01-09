@@ -10,4 +10,31 @@
 body {
     font-family: Releway, sans-serif;
     font-weight: 300;
+    color: rgb(20,47,84)
+}
+
+/*Heading and logo*/
+h1{
+    font-family: Releway, sans-serif;
+    letter-spacing: 3px;
+    color:rgb(20,47,84)
+}
+
+#logo {
+    float:left;
+    font-size: 150%;
+}
+
+/*Navigation*/
+nav ul li{ list-style-type: none;
+           float:right;
+           width:140px;
+
+
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
 }
