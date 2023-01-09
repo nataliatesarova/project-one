@@ -15,14 +15,13 @@ body {
 
 /*Heading and logo*/
 
-#pic{
-    list-style-type: none;
-           float:left;
-           width:120px;
-           text-align: center;
-           line-height: 80px;
-}
+#pic {list-style-type: none;
+    float: left;
+    width:120px;
+    text-align: center;
+    line-height: 80px;
 
+}
 
 
 
@@ -31,19 +30,17 @@ body {
 
 nav {
     background-color:lightpink;
-    width:100%
-    overflow:auto;
+    height: 100px;
     
 }
-
-
-
-
+    
+    
 nav ul li{ list-style-type: none;
            float:right;
-           width:120px;
+           width: 100px;
            text-align: center;
-           line-height: 80px;
+           
+           
            
 
 
@@ -61,4 +58,14 @@ nav ul li a:hover {
     content: "";
     display: table;
     clear: both;
+}
+
+/*brown eyes image*/
+
+#browneyes {
+    
+    width:100%;
+    
+    
+    
 }
