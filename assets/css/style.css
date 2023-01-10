@@ -103,8 +103,11 @@ p {font-family:Raleway;
 }
  /* Video of a cataract surgery*/
 
-iframe {
-    padding-top: 70px;
-    padding-left:50px;
+#container {
+    display: flex;
+}
+
+#container div{
+    padding-bottom: 1000px;
 }
 
