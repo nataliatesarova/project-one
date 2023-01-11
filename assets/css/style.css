@@ -9,7 +9,7 @@
 
 
 
-/*Heading and logo*/
+/* Heading and logo */
 
 #logo img{
     width:200px;
@@ -28,7 +28,7 @@
 }
 
 
-/*Navigation*/
+/* Navigation */
 
 nav {
     background-color:lightpink;
@@ -68,7 +68,7 @@ nav ul li a:hover {
     border-bottom: 1.5px solid darkgray;
 }
 
-/*brown eyes image*/
+/* brown eyes image */
 
 #browneyes{
     padding-bottom: 30px;
@@ -76,7 +76,7 @@ nav ul li a:hover {
 
 
       
-/*main text*/
+/* main text */
 h1 {
     font-family:Raleway;
     font-size: 25px;
@@ -101,13 +101,36 @@ p {font-family:Raleway;
     padding-right: 50px;
     
 }
- /* Video of a cataract surgery*/
+ /* Video of a cataract surgery*/ 
+ /*https://www.youtube.com/watch?v=Q1d-1FzdXEE took this code */
 
 #container {
     display: flex;
 }
 
 #container div{
-    padding-bottom: 1000px;
+    align-items: center;
+    margin:80px;
+}
+
+/* footer */
+
+footer {
+    height:150px;
+}
+
+ul li{
+    text-align: center;
+}
+
+li {
+    display: inline;
+    
+}
+
+i {
+    font-size: 150%;
+    padding: 2%;
+    margin: 2%;
 }
 
