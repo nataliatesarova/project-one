@@ -7,8 +7,6 @@
 }
 
 
-
-
 /* Heading and logo */
 
 #logo img{
@@ -100,6 +98,7 @@ p {font-family:Raleway;
     padding-left: 50px;
     padding-right: 50px;
     
+    
 }
  /* Video of a cataract surgery*/ 
  /*https://www.youtube.com/watch?v=Q1d-1FzdXEE took this code */
@@ -113,24 +112,35 @@ p {font-family:Raleway;
     margin:80px;
 }
 
+#patient {
+    margin-left: 100px;
+}
+
+
+
 /* footer */
 
-footer {
-    height:150px;
+h3 {
+    font-size: 15px;
+    color:rgb(139,69,19);
+    padding-top: 40px;
+    
 }
 
-ul li{
-    text-align: center;
-}
 
 li {
     display: inline;
     
 }
 
-i {
-    font-size: 150%;
+i { 
+    font-size: 20px;
     padding: 2%;
     margin: 2%;
+    
 }
 
+ul {
+    text-align: center;
+    background-color:lightpink;
+}
