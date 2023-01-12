@@ -112,9 +112,29 @@ p {font-family:Raleway;
     margin:80px;
 }
 
-#patient {
-    margin-left: 100px;
+
+/* three sections */ /* https://www.youtube.com/watch?v=qXRYMdvq_Dc */
+
+.container1 {
+    display:flex;
+    justify-content: center;
+
 }
+
+.card {
+    width:400px;
+    height:400px;
+    margin: 70px;
+}
+
+.color {
+    color:rgb(139,69,19);
+    font-size: 18px;
+    margin: 50px;   
+
+}
+    
+
 
 
 
