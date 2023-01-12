@@ -97,7 +97,7 @@ p {font-family:Raleway;
     line-height:30px;
     padding-left: 50px;
     padding-right: 50px;
-    
+   
     
 }
  /* Video of a cataract surgery*/ 
@@ -137,7 +137,6 @@ p {font-family:Raleway;
 
 
 
-
 /* footer */
 
 h3 {
@@ -148,7 +147,7 @@ h3 {
 }
 
 
-li {
+footer li {
     display: inline;
     
 }
@@ -160,7 +159,29 @@ i {
     
 }
 
-ul {
+ footer ul {
     text-align: center;
     background-color:lightpink;
 }
+
+
+
+
+/* Services html */
+ 
+ul {
+
+}
+
+li {
+    display:block;
+}
+
+
+
+/* img of patient */ 
+
+img {
+    float:right;
+}
+ 
