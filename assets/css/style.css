@@ -38,9 +38,7 @@ nav ul{ float:right;
         margin-top: 40px;
         margin-right: 40px;
 }
-        
-
-    
+           
     
 nav ul li {
     display: inline-block;
@@ -52,7 +50,6 @@ nav ul li {
 
 a {
     color:rgb(139,69,19);
-
 }
            
 
@@ -72,7 +69,6 @@ nav ul li a:hover {
     padding-bottom: 30px;
 }
 
-
       
 /* main text */
 h1 {
@@ -85,8 +81,7 @@ h1 {
     margin-bottom: 7px;
     color:rgb(139,69,19);
     padding-left: 50px;
-    padding-right: 50px;
-    
+    padding-right: 50px;  
     
 }
 
@@ -97,8 +92,7 @@ p {font-family:Raleway;
     line-height:30px;
     padding-left: 50px;
     padding-right: 50px;
-   
-    
+      
 }
  /* Video of a cataract surgery*/ 
  /*https://www.youtube.com/watch?v=Q1d-1FzdXEE took this code */
@@ -136,8 +130,8 @@ p {font-family:Raleway;
     
 
 
-
 /* footer */
+
 
 h3 {
     font-size: 15px;
@@ -168,20 +162,35 @@ i {
 
 
 /* Services html */
+
+ul li {
+    text-align:center;}
+
+#services-heading {
+    text-align: center;
+}
  
-ul {
-
+#laser-heading{
+    text-align: center;
 }
 
-li {
-    display:block;
+#cataract-heading {
+    text-align: center;
 }
 
+#implantable-contact-lens-heading {
+    text-align: center;
+}
+
+#Refractive-heading {
+    text-align: center;
+}
 
 
 /* img of patient */ 
 
-img {
-    float:right;
+.class {
+    display: flex;
+    justify-content: around;
 }
  
