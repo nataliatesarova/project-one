@@ -163,8 +163,6 @@ i {
 
 /* Services html */
 
-ul li {
-    text-align:center;}
 
 #services-heading {
     text-align: center;
@@ -178,14 +176,9 @@ ul li {
     text-align: center;
 }
 
-#implantable-contact-lens-heading {
+#implantable-collamer-lens-heading {
     text-align: center;
 }
-
-#Refractive-heading {
-    text-align: center;
-}
-
 
 /* img of patient */ 
 
