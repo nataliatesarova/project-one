@@ -62,8 +62,10 @@ nav ul li a:hover {
 
 /* brown eyes image */
 
-#browneyes{
+.browneyes{
     padding-bottom: 30px;
+    display: flex;
+    flex-wrap:wrap;
 }
 
       
@@ -109,19 +111,21 @@ p {font-family:Raleway;
 .container1 {
     display:flex;
     justify-content: center;
-
 }
 
 .card {
     width:400px;
     height:400px;
     margin: 70px;
+    padding: 20px;
+    text-align: center;
+    margin: 0 auto;
 }
 
 .color {
     color:rgb(139,69,19);
     font-size: 18px;
-    margin: 50px;   
+    margin: 23px;
 
 }
     
@@ -132,6 +136,7 @@ h3 {
     font-size: 15px;
     color:rgb(139,69,19);
     padding-top: 40px;
+    
     
 }
 
@@ -178,11 +183,67 @@ span {
     color: rgb(139,69,19);
     
 }
-/* img of patient */ 
+/* images of patients */ 
 
 .class {
     display: flex;
-
+    flex-wrap:wrap;
 }
  
 /*  Contact html */
+
+#request-heading {
+    padding-left: 220px;
+}
+
+.container-contact {
+    display: flex;
+    flex-wrap:wrap; 
+      
+}
+
+form {
+    width: 60%;
+    padding: 20px;
+    
+}
+
+.form-group {
+    margin-bottom: 20px;
+    margin-left: 200px;
+    
+}
+
+.button {
+    margin-left: 200px;
+    width: 60%;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 15px;
+    padding-top: 40px;
+   }
+
+input, textarea {
+    width:80%;
+    padding:10px;
+    border:1px solid #ccc;
+    box-sizing: border-box;
+}
+
+ .contact h3{
+    padding-top: 60px;
+ }
+    
+
+.contact p {
+    padding-left: 0;
+    
+}
+
+
