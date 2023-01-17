@@ -106,10 +106,14 @@ p {font-family:Raleway;
 }
 
 
+
+
+
 /* three sections */ /* https://www.youtube.com/watch?v=qXRYMdvq_Dc */
 
 .container1 {
     display:flex;
+    flex-wrap:wrap; 
     justify-content: center;
 }
 
@@ -156,7 +160,6 @@ i {
     text-align: center;
     background-color:lightpink;
 }
-
 
 /* Services html */
 
@@ -246,4 +249,6 @@ input, textarea {
     
 }
 
+
+/* Thanks page */
 
