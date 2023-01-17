@@ -96,17 +96,12 @@ p {font-family:Raleway;
  /* Video of a cataract surgery*/ 
  /*https://www.youtube.com/watch?v=Q1d-1FzdXEE took this code */
 
-#container {
-    display: flex;
+
+.image-container{
+    display:flex;
+    flex-wrap:wrap; 
+    justify-content: center;
 }
-
-#container div{
-    align-items: center;
-    margin:80px;
-}
-
-
-
 
 
 /* three sections */ /* https://www.youtube.com/watch?v=qXRYMdvq_Dc */
@@ -132,7 +127,34 @@ p {font-family:Raleway;
     margin: 23px;
 
 }
+
+
+ /* Responsive layout - makes a one column layout instead of a two-column layout */
+ /* https://www.w3schools.com/css/css3_flexbox_responsive.asp */
+ .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+  }
+  
+  .flex-item-left {
+    flex: 50%;
     
+  }
+  
+  .flex-item-right {
+    flex: 50%;
+  }
+  
+  /* Responsive layout - makes a one column layout instead of a two-column layout */
+  @media (max-width: 800px) {
+    .flex-item-right, .flex-item-left {
+      flex: 100%;    
+    
+    }
+  }
+ 
 /* footer */
 
 
@@ -250,5 +272,20 @@ input, textarea {
 }
 
 
-/* Thanks page */
 
+
+/* Thanks page */ 
+/*https://www.youtube.com/watch?v=yc2olxLgKLk*/
+
+html {
+    height:100%;
+}
+body {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    margin-top: auto;
+}
