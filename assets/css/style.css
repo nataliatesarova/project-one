@@ -44,7 +44,8 @@ nav {
     }
   
 
-nav ul{ float:right;
+nav ul{ 
+    float:right;
         margin-top: 40px;
         margin-right: 40px;
 }
@@ -81,7 +82,8 @@ nav ul li a:hover {
 }
 
 .browneyes > img {
-    width: 100% 
+    width: 100%; 
+    
 }
 
 @media screen and (max-width:750px)
@@ -91,7 +93,7 @@ nav ul li a:hover {
   }
 
   nav > ul {
-    float:0;
+    /* float:0; */
     margin:0;
   }
 /* main text */
@@ -163,6 +165,10 @@ p {font-family:Raleway;
     justify-content: center;
     justify-content: space-around;
   }
+
+  .flex-container h3 {
+    text-align: center;
+  }
   
   .flex-item-left {
     flex: 50%;
@@ -209,6 +215,10 @@ i {
     background-color:lightpink;
 }
 
+.socials {
+    margin:  auto;   
+}
+
 /* Services html */
 
 #services-heading {
@@ -247,11 +257,16 @@ span {
     padding-left: 220px;
 }
 
+.fa-phone {
+    padding: 0;
+}
+
 .container-contact {
     display: flex;
     flex-wrap:wrap; 
       
 }
+
 
 form {
     width: 60%;
@@ -331,4 +346,32 @@ footer {
         float:  0;
         margin: 0;
     }
+    
+}
+
+
+
+@media (max-width:375px) {
+    
+
+    #request-heading {
+        padding-left: 110px;
+}
+.app-form {
+    width: 100%;
+    
+}
+
+.container-contact {
+   
+}
+
+.thank-you{
+    
+        margin: 25px auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    
 }
