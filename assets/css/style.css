@@ -31,8 +31,11 @@
 
 nav {
     background-color:lightpink;
+    display: flex;
     height: 100px;
-    width:100%;}
+    width:100%;
+    align-items: center;
+    justify-content: flex-end;}
 
  /* Responsive layout - makes a one column layout instead of a two-column layout */
  @media (max-width: 100%) {
@@ -253,7 +256,7 @@ span {
  
 /*  Contact html */
 
-#request-heading {
+ #request-heading {
     padding-left: 220px;
 }
 
@@ -333,7 +336,9 @@ footer {
 }
 
 .thank-you {
-    margin-left: 500px;
+    height: 200px;
+    line-height:200px;
+    text-align:center;
 
 }
 
@@ -351,27 +356,64 @@ footer {
 
 
 
-@media (max-width:375px) {
-    
+@media (max-width:480px) and (min-width:320px){
+ 
+img {
+    width:700;
+    height:150px;
+  }  
 
     #request-heading {
         padding-left: 110px;
 }
+
+flex-container {
+    
+    width:50%;
+}
+
 .app-form {
     width: 100%;
     
 }
 
+nav {
+    align-items: right;
+}
+
 .container-contact {
+    width:100%;
    
 }
 
-.thank-you{
+.form-group {
+    margin-bottom:5px;
+    margin-left:5px;
     
-        margin: 25px auto;
 }
 
-.form-group {
-    margin-bottom: 20px;
+.button {
+    width: 60%;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-left: 7px;}
+
+input, textarea, button {
+    width: 100%;
+}
+
+.contact {
+    margin-left: 50px;
+}
+
+/* #logo img {
+    
+    position: absolute;
+    height:50px;
+    width:50px;}
+} */
+
+
+nav logo {text-align: center;
     
 }
