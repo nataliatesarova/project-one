@@ -358,14 +358,14 @@ footer {
 
 @media (max-width:480px) and (min-width:320px){
  
-img {
+/* img {
     width:700;
     height:150px;
-  }  
-
-    #request-heading {
-        padding-left: 110px;
-}
+  }   */
+  img {
+    
+    height:186px;}
+ 
 
 flex-container {
     
