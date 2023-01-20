@@ -402,6 +402,11 @@ input, textarea, button {
     width: 100%;
 }
 
+iframe {
+    width:280px;
+    height:157px;
+}
+
 .contact {
     margin-left: 50px;
 }
