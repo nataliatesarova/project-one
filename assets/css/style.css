@@ -407,6 +407,12 @@ iframe {
     height:157px;
 }
 
+logo img{
+    position: absolute;
+    height:50px;
+    width:50px;
+    margin-bottom:500px;
+}
 .contact {
     margin-left: 50px;
 }
