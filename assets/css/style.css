@@ -380,6 +380,12 @@ flex-container {
     
 }
 
+.card {
+    width: 400px;
+    margin: 70px;
+    text-align: center;
+    margin: 0 auto;}
+
 nav {
     align-items: right;
 }
