@@ -17,6 +17,9 @@ Wave Eye clinic is an ophthalmic surgery centre which offers laser refractive an
 * The high quality of the surgeons and surgical equipment, and finance options are briefly summarised in three headed columns. (ADD SCREENSHOTS OF THE THREE TEXT COLUMNS)
 
 ### Footer
+* The footer contains the icons and links to the clinic's social media sites on Facebook, Instagram, YouTube and Twitter that will open in new tabs. 
+* This will alow the user to see the most up-to-date information, which may not yet be available on the clinic website.
+  
 
 
 
