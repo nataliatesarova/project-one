@@ -401,7 +401,13 @@ nav ul li a {
     font-size: 22px;}
 
 p {
-    /* text-align:left; */
+    text-align:left;
+    font-family: Raleway;
+    word-spacing: 1px;
+    font-size: 19px;
+    line-height: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .form-group {
