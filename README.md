@@ -1,5 +1,6 @@
 # Wave Eye Clinic
 Wave Eye clinic is an ophthalmic surgery centre which offers laser refractive and lens surgery. The website aims to gives prospective patients the essential information about the practice and surgeons, surgical procedures and finance options. Patients are also able to submit contact details to arrange an consultation.
+![monitors](assets/doc/monitors.png)
 ## Features 
 ### Navigation bar
 ![Mockup](assets/doc/nav.png)
@@ -10,6 +11,9 @@ Wave Eye clinic is an ophthalmic surgery centre which offers laser refractive an
 ![Mockup](assets/doc/brown-eyes.jpeg)
 ### The landing page image
 * The landing page has a pleasant image of a woman's eyes which immediately tells the viewer that the site is ophthalmic. The image of eyes literally makes eye contact with the user.
+### Introduction to the clinic and main surgeon
+* Information on the educational and training background of the principle surgeon and clinic owner, and the high level of care and treatment that patients can expect.
+![laser eye surgery](assets/doc/lasereyesurgery.png)
 
 ### Surgical videos
 *  Embedded Youtube videos of LASIK and cataract surgery, which are the two main treatmens offered by the clinic. 
@@ -34,7 +38,7 @@ Wave Eye clinic is an ophthalmic surgery centre which offers laser refractive an
 * The contact page allows users to request an appointment for a consultation at the clinic. The user is presented with 5 boxes to input first name, last name, email address, telephone number and comments/questions. 
 * On pushing the send button a new page is opened stating 'Thank you for contacting us. We will reply shortly'.
 * The clinic address and telephone number are also presented on the contact page allowing another mode of contact.
-![request an appointment](assets/doc/requestanappointment.png)
+![request an appointment](assets/doc/contactpage.png)
 
 ### Features left to implement
 * A possible future enhancement would be to add javascript to send an email directly to the Wave Eye Clinic.
@@ -45,6 +49,10 @@ Wave Eye clinic is an ophthalmic surgery centre which offers laser refractive an
 
 ## Validator Testing
 * HTML: Errors were not found when passing through the official W3C validator
+![validator](assets/doc/index.png)
+![validator](assets/doc/service.png)
+![validator](assets/doc/contact.png)
+![validator](assets/doc/thankyou.png)
 * CSS: Errors were not found when passing through the official Jigsaw validator
 * Lighthouse in the Chrome Developer Tools was used to test website performance, accessibility, best practices and SEO.
 
