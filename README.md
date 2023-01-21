@@ -32,3 +32,7 @@ Wave Eye clinic is an ophthalmic surgery centre which offers laser refractive an
 
 ### Features left to implement
 * A possible future enhancement would be to add javascript to send an email directly to the Wave Eye Clinic.
+
+### Testing
+* All pages were tested for resposiveness on 320 px and up using the developer tools. The web site was tested on Google Chrome, Safari, Mozilla Firefox, Microsoft Edge and Opera browsers with iPhone SE, iPhone 14 Pro, iPhone 14 Pro Max, Samsung Galaxy S8+, Ipad Air devices.
+
