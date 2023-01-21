@@ -384,7 +384,8 @@ flex-container {
     width: 400px;
     margin: 70px;
     text-align: center;
-    margin: 0 auto;}
+    margin: 0 auto;
+    height:322px;}
 
 nav {
     align-items: right;
@@ -393,6 +394,14 @@ nav {
 .container-contact {
     width:100%;
    
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 22px;}
+
+p {
+    /* text-align:left; */
 }
 
 .form-group {
