@@ -1,15 +1,15 @@
 # Wave Eye Clinic
 Wave Eye clinic is an ophthalmic surgery centre which offers laser refractive and lens surgery. The website aims to gives prospective patients the essential information about the practice and surgeons, surgical procedures and finance options. Patients are also able to submit contact details to arrange an consultation. View the live site [here](https://nataliatesarova.github.io/project-one/index.html)
 
-![monitors](assets/doc/)
+![monitors](assets/doc/monitor.png)
 
 ## Features 
 ### Navigation bar
-![Mockup](assets/doc/nav.png)
+![Mockup](assets/doc/navigationbarandlogo.png)
 * Navigation Menu
-    * Contains links to the About us, Services and Contact on all 3 pages and will be responsive on devices of differing size.
-    * Opens in the same tab and 
-    allows users to easily navigate between the pages within the site. 
+    * Contains links to the About us, Services and Contact on all pages, with hover feature, and will be responsive on devices of differing size.
+    * Opens in the same tab and allows users to easily navigate between the pages within the site.
+ 
 ![Mockup](assets/doc/brown-eyes.jpeg)
 
 ### The landing page image
@@ -63,7 +63,8 @@ The background color on the header and footer was pink RGB (255,182, 193). Font 
 * Times font
 
 ### Logo
-Logo was designed on [Free Logo Design](https://www.freelogodesign.org/) and incorporated into the header (INSERT LOGO IMAGE)
+Logo was designed on [Free Logo Design](https://www.freelogodesign.org/) and incorporated into the header
+![logo](assets/doc/logo.png)
 
 ### Images
 The source of all images are provided in the credit section
@@ -71,20 +72,24 @@ The source of all images are provided in the credit section
 ### Balsamiq frameworks
 
 Home page
-![](assets/doc/squareaboutus.png)
-![](assets/doc/aboutusm.png)
+![wireframe desktop computer](assets/doc/squareaboutus.png)
+
+![wireframe mobile phone](assets/doc/aboutusm.png)
 
 Services page
-![](assets/doc/squareservice.png)
-![](assets/doc/maboutus.png)
+![wireframe desktop computer](assets/doc/squareservice.png)
+
+![wireframe mobile phone](assets/doc/maboutus.png)
 
 Contact Page
-![](assets/doc/requestsquare.png)
-![](assets/doc/requestm.png)
+![wireframe desktop computer](assets/doc/requestsquare.png)
+
+![wireframe mobile phone](assets/doc/requestm.png)
 
 Submission and thank you page
-![](assets/doc/squarethankyou.png)
-![](assets/doc/thankyoum.png)
+![wireframe desktop computer](assets/doc/squarethankyou.png)
+
+![wireframe mobile phone](assets/doc/thankyoum.png)
 
 ## Testing
 
@@ -101,13 +106,16 @@ Submission and thank you page
 * CSS: Errors were not found when passing through the official Jigsaw validator (DO TEST AND INSERT PIC)
 
 ### Accessibility
-* Adobe Color was used to test contrast for accessibility. (INSERT PIC OF ADOBE COLOR TEST)
-* Wave accessibility (DO TEST CHANGE FONT COLOR AND INSERT PIC-LIGHTHOUSE ALSO TESTS ACCESSIBILITY)
-* Lighthouse in the Chrome Developer Tools was used to test website performance, accessibility, best practices and SEO. (INSERT PIC)
+* Adobe Color was used to test contrast for accessibility. ![adobe colour contrast test](assets/doc/Adobecolor.png)
+* Lighthouse in the Chrome Developer Tools was used to test website performance, accessibility, best practices and SEO. 
+![](assets/doc/lighthouseabout.png)
+![](assets/doc/lighthouseservices.png)
+![](assets/doc/lighthouserequest.png)
+![](assets/doc/Screenshot%202023-01-22%20at%2019.24.28.png)
 * Manual testing was also performed
 
 ### Bugs
-An error was found with the footer since the h3 ("Follow Wave Eye Clinic") was placed in the ul. This was fixed by moving the h3 above the ul. Wave testing showed an empty link error with regard to the clinic logo. This did not appear to have any bearing on the website function and will be addressed in a future release.
+An error was found with the footer since the h3 ("Follow Wave Eye Clinic") was placed in the ul. This was fixed by moving the h3 above the ul. 
 
 ## Technologies used
 ### Languages
@@ -118,7 +126,7 @@ An error was found with the footer since the h3 ("Follow Wave Eye Clinic") was p
 * [Balsamiq](https://balsamiq.com/wireframes/)- used to create the wireframes
 * [Github](https://github.com/) - cloud based hosting service to save and store the files for webite 
 * Git - version control system
-* [Visual studio Code](https://code.visualstudio.com/) - the website was created using Microsoft Visual Studio Code integrated development environment (IDE)
+* [Visual Studio Code](https://code.visualstudio.com/) - the website was created using Microsoft Visual Studio Code integrated development environment (IDE)
 * [Font Awesome](https://fontawesome.com/) - font and icon toolkit
 * [Google Fonts](https://fonts.google.com/about) - used to importing the fonts on the website
 * [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/) - used for troubleshooting and testing features, and to solve issues with responsiveness and styling
@@ -145,17 +153,6 @@ The following git commands were used to push code to the remote repository:
   - Click 'Save'
   - A live link will be displayed in a green banner when published successfully. The live link is available [here](https://github.com/nataliatesarova/project-one)
 
-### Clone the Repository Code Locally
-
-* Navigate to the GitHub Repository you want to clone to use locally:
-
-    - Click on the code drop down button
-    - Click on HTTPS
-    - Copy the repository link to the clipboard
-    - Open the IDE of choice (git must be installed for the next steps)
-    - Type git clone copied-git-url into the IDE terminal
-
-The project will now be cloned on your local machine for use.
 
 ## Credits
 
