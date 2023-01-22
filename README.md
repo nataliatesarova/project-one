@@ -76,27 +76,37 @@ Wave Eye clinic is an ophthalmic surgery centre which offers laser refractive an
 An error was found with the footer since the h3 ("Follow Wave Eye Clinic") was placed in the ul. This was fixed by moving the h3 above the ul. Wave testing showed an empty link error with regard to the clinic logo. This did not appear to have any bearing on the website function and will be addressed in a future release.
 
 ##  Design
+* Balsamiq frameworks
+
+Home page
 ![](assets/doc/squareaboutus.png)
 ![](assets/doc/aboutusm.png)
+
+Services page
 ![](assets/doc/squareservice.png)
 ![](assets/doc/maboutus.png)
+
+Contact Page
 ![](assets/doc/requestsquare.png)
 ![](assets/doc/requestm.png)
+
+Submission and thank you page
 ![](assets/doc/squarethankyou.png)
 ![](assets/doc/thankyoum.png)
 
 
-### Technologies used
-* HTML 
-* CSS 
+## Technologies used
+### Languages
+* HyperText Markup language (HTML) - the standard markup language for documents designed to be displayed in a web browser
+* Cascading Style Sheets (CSS) - used to describe the presentation of the document written in HTML
 
-
-* Github
-* Git 
-* Balsamiq
-* Font Awesome
-* Google Fonts
-* Google Dev Tools
+### Frameworks, Libraries and Programs
+* Balsamiq- used to create the wireframes
+* Github - cloud based hosting service to save and store the files for webite 
+* Git - version control system
+* Font Awesome - font and icon toolkit
+* Google Fonts - used to importing the fonts on the website
+* Google Chrome DevTools - used for troubleshooting and testing features, and to solve issues with responsiveness and styling
 
 
 
