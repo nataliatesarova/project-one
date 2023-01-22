@@ -1,6 +1,8 @@
 # Wave Eye Clinic
-Wave Eye clinic is an ophthalmic surgery centre which offers laser refractive and lens surgery. The website aims to gives prospective patients the essential information about the practice and surgeons, surgical procedures and finance options. Patients are also able to submit contact details to arrange an consultation.
+Wave Eye clinic is an ophthalmic surgery centre which offers laser refractive and lens surgery. The website aims to gives prospective patients the essential information about the practice and surgeons, surgical procedures and finance options. Patients are also able to submit contact details to arrange an consultation. View the live site [here](https://nataliatesarova.github.io/project-one/index.html)
+
 ![monitors](assets/doc/)
+
 ## Features 
 ### Navigation bar
 ![Mockup](assets/doc/nav.png)
@@ -16,14 +18,6 @@ Wave Eye clinic is an ophthalmic surgery centre which offers laser refractive an
 ### Introduction to the clinic and main surgeon
 * Information on the educational and training background of the principle surgeon and clinic owner, and the high level of care and treatment that patients can expect.
 ![laser eye surgery](assets/doc/lasereyesurgery.png)
-
-### Accesibility
-* Use of semantic HTML
-* Use of ARIA
-* Use of alt attributes
-* Use Adobe Color to check colour contrast
-* Fixed header, providing visitors with easy access to other pages
-
 
 ### Surgical videos
 *  Embedded Youtube videos of LASIK and cataract surgery, which are the two main treatmens offered by the clinic. 
@@ -53,6 +47,45 @@ Wave Eye clinic is an ophthalmic surgery centre which offers laser refractive an
 ### Features left to implement
 * A possible future enhancement would be to add javascript to send an email directly to the Wave Eye Clinic.
 
+### Accesibility
+* Use of semantic HTML
+* Use of ARIA labels allowing ientification by by screen readers
+* Use of alt attributes to provide alternative information for users
+* Use Adobe Color to check colour contrast
+* Color contrasts meet the standards specified in [WCAG 2.1 contrast guidelines](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html)
+
+##  Design
+### Color scheme
+The background color on the header and footer was pink RGB (255,182, 193). Font color in header, footer, and headings was brown RGB (130, 65, 18).
+
+### Typography
+* Raleway font from Google fonts
+* Times font
+
+### Logo
+Logo was designed on [Free Logo Design](https://www.freelogodesign.org/) and incorporated into the header (INSERT LOGO IMAGE)
+
+### Images
+The source of all images are provided in the credit section
+
+### Balsamiq frameworks
+
+Home page
+![](assets/doc/squareaboutus.png)
+![](assets/doc/aboutusm.png)
+
+Services page
+![](assets/doc/squareservice.png)
+![](assets/doc/maboutus.png)
+
+Contact Page
+![](assets/doc/requestsquare.png)
+![](assets/doc/requestm.png)
+
+Submission and thank you page
+![](assets/doc/squarethankyou.png)
+![](assets/doc/thankyoum.png)
+
 ## Testing
 
 ### Responsiveness
@@ -71,29 +104,10 @@ Wave Eye clinic is an ophthalmic surgery centre which offers laser refractive an
 * Adobe Color was used to test contrast for accessibility. (INSERT PIC OF ADOBE COLOR TEST)
 * Wave accessibility (DO TEST CHANGE FONT COLOR AND INSERT PIC-LIGHTHOUSE ALSO TESTS ACCESSIBILITY)
 * Lighthouse in the Chrome Developer Tools was used to test website performance, accessibility, best practices and SEO. (INSERT PIC)
+* Manual testing was also performed
 
 ### Bugs
 An error was found with the footer since the h3 ("Follow Wave Eye Clinic") was placed in the ul. This was fixed by moving the h3 above the ul. Wave testing showed an empty link error with regard to the clinic logo. This did not appear to have any bearing on the website function and will be addressed in a future release.
-
-##  Design
-* Balsamiq frameworks
-
-Home page
-![](assets/doc/squareaboutus.png)
-![](assets/doc/aboutusm.png)
-
-Services page
-![](assets/doc/squareservice.png)
-![](assets/doc/maboutus.png)
-
-Contact Page
-![](assets/doc/requestsquare.png)
-![](assets/doc/requestm.png)
-
-Submission and thank you page
-![](assets/doc/squarethankyou.png)
-![](assets/doc/thankyoum.png)
-
 
 ## Technologies used
 ### Languages
@@ -101,12 +115,49 @@ Submission and thank you page
 * Cascading Style Sheets (CSS) - used to describe the presentation of the document written in HTML
 
 ### Frameworks, Libraries and Programs
-* Balsamiq- used to create the wireframes
-* Github - cloud based hosting service to save and store the files for webite 
+* [Balsamiq](https://balsamiq.com/wireframes/)- used to create the wireframes
+* [Github](https://github.com/) - cloud based hosting service to save and store the files for webite 
 * Git - version control system
-* Font Awesome - font and icon toolkit
-* Google Fonts - used to importing the fonts on the website
-* Google Chrome DevTools - used for troubleshooting and testing features, and to solve issues with responsiveness and styling
+* [Visual studio Code](https://code.visualstudio.com/) - the website was created using Microsoft Visual Studio Code integrated development environment (IDE)
+* [Font Awesome](https://fontawesome.com/) - font and icon toolkit
+* [Google Fonts](https://fonts.google.com/about) - used to importing the fonts on the website
+* [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/) - used for troubleshooting and testing features, and to solve issues with responsiveness and styling
+
+## Deployment
+
+### Version control
+The site was created using Visual Studio Code editor (Microsoft) and pushed to github to the remote repository ‘ADD NAME’.
+
+The following git commands were used to push code to the remote repository:
+
+```git add <file>``` - This command added the file(s) to the staging area before they are committed.
+
+```git commit -m “commit message”``` - This command allowed the commit of changes to the local repository queue.
+
+```git push``` - This command pushed all committed code to the remote repository on github.
+
+### Deployment to Github Pages
+
+* The site was deployed to GitHub pages. Deployment requires the following steps: 
+  - In the GitHub repository, navigate to the Settings tab 
+  - From the menu on left select 'Pages'
+  - From the source section drop-down menu, select the Branch: main
+  - Click 'Save'
+  - A live link will be displayed in a green banner when published successfully. The live link is available [here](https://github.com/nataliatesarova/project-one)
+
+### Clone the Repository Code Locally
+
+* Navigate to the GitHub Repository you want to clone to use locally:
+
+    - Click on the code drop down button
+    - Click on HTTPS
+    - Copy the repository link to the clipboard
+    - Open the IDE of choice (git must be installed for the next steps)
+    - Type git clone copied-git-url into the IDE terminal
+
+The project will now be cloned on your local machine for use.
+
+## Credits
 
 
 
