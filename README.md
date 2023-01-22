@@ -1,6 +1,6 @@
 # Wave Eye Clinic
 Wave Eye clinic is an ophthalmic surgery centre which offers laser refractive and lens surgery. The website aims to gives prospective patients the essential information about the practice and surgeons, surgical procedures and finance options. Patients are also able to submit contact details to arrange an consultation.
-![monitors](assets/doc/monitors.png)
+![monitors](assets/doc/)
 ## Features 
 ### Navigation bar
 ![Mockup](assets/doc/nav.png)
@@ -36,7 +36,7 @@ Wave Eye clinic is an ophthalmic surgery centre which offers laser refractive an
 
 ### Contact
 * The contact page allows users to request an appointment for a consultation at the clinic. The user is presented with 5 boxes to input first name, last name, email address, telephone number and comments/questions. 
-* On pushing the send button a new page is opened stating 'Thank you for contacting us. We will reply shortly'.
+* On pushing the send button a new page is opened stating 'Thank you for contacting us. We will reply shortly'. (INSERT PIC OF THANK YOU PAGE)
 * The clinic address and telephone number are also presented on the contact page allowing another mode of contact.
 ![request an appointment](assets/doc/contactpage.png)
 
@@ -53,6 +53,11 @@ Wave Eye clinic is an ophthalmic surgery centre which offers laser refractive an
 ![validator](assets/doc/service.png)
 ![validator](assets/doc/contact.png)
 ![validator](assets/doc/thankyou.png)
-* CSS: Errors were not found when passing through the official Jigsaw validator
-* Lighthouse in the Chrome Developer Tools was used to test website performance, accessibility, best practices and SEO.
+* CSS: Errors were not found when passing through the official Jigsaw validator (DO TEST AND INSERT PIC)
+* Lighthouse in the Chrome Developer Tools was used to test website performance, accessibility, best practices and SEO. (INSERT PIC)
+* Wave accessibility (DO TEST CHANGE FONT COLOR AND INSERT PIC-LIGHTHOUSE ALSO TESTS ACCESSIBILITY)
+* Manual testing
+The website was used
+* Bugs
+An error was found with the footer since the h3 ("Follow Wave Eye Clinic") was placed in the ul. This was fixed by moving the h3 above the ul.
 

@@ -62,7 +62,7 @@ nav ul li {
 }
 
 a {
-    color:rgb(139,69,19);
+    color:rgb(130,65,18);
 }
            
 
@@ -73,7 +73,7 @@ nav ul li a {
 
 
 nav ul li a:hover {
-    border-bottom: 1.5px solid rgb(139,69,19);;
+    border-bottom: 1.5px solid rgb(130,65,18);
 }
 
 /* brown eyes image */
@@ -108,7 +108,7 @@ h1 {
     letter-spacing: 2px;
     line-height: 45px;
     margin-bottom: 7px;
-    color:rgb(139,69,19);
+    color:rgb(130,65,18);
     padding-left: 50px;
     padding-right: 50px;  
     
@@ -153,7 +153,7 @@ p {font-family:Raleway;
 }
 
 .color {
-    color:rgb(139,69,19);
+    color:rgb(130,65,18);
     font-size: 18px;
     margin: 23px;
 
@@ -195,7 +195,7 @@ p {font-family:Raleway;
 
 h3 {
     font-size: 15px;
-    color:rgb(139,69,19);
+    color:rgb(130,65,18);
     padding-top: 40px;
     
     
@@ -230,21 +230,21 @@ i {
  
 #laser-heading{
     text-align: center;
-    color: rgb(139,69,19);
+    color: rgb(130,65,18);
 }
 
 #cataract-heading {
     text-align: center;
-    color: rgb(139,69,19);
+    color: rgb(130,65,18);
 }
 
 #implantable-collamer-lens-heading {
     text-align: center;
-    color: rgb(139,69,19);
+    color: rgb(130,65,18);
 }
 
 span {
-    color: rgb(139,69,19);
+    color: rgb(130,65,18);
     
 }
 /* images of patients */ 
