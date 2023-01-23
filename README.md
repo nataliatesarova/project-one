@@ -1,16 +1,16 @@
 # Wave Eye Clinic
 Wave Eye clinic is an ophthalmic surgery centre which offers laser refractive and lens surgery. The website aims to gives prospective patients the essential information about the practice and surgeons, surgical procedures and finance options. Patients are also able to submit contact details to arrange an consultation. View the live site [here](https://nataliatesarova.github.io/project-one/index.html)
 
-![monitors](assets/doc/monitor.png)
+![multiple screens](assets/doc/monitor.png)
 
 ## Features 
 ### Navigation bar
-![Mockup](assets/doc/navigationbarandlogo.png)
+![navigation bar](assets/doc/navigationbarandlogo.png)
 * Navigation Menu
     * Contains links to the About us, Services and Contact on all pages, with hover feature, and will be responsive on devices of differing size.
     * Opens in the same tab and allows users to easily navigate between the pages within the site.
  
-![Mockup](assets/doc/brown-eyes.jpeg)
+![brown eyes image](assets/doc/brown-eyes.jpeg)
 
 ### The landing page image
 * The landing page has a pleasant image of a woman's eyes which immediately tells the viewer that the site is ophthalmic. The image of eyes literally makes eye contact with the user.
@@ -36,7 +36,7 @@ Wave Eye clinic is an ophthalmic surgery centre which offers laser refractive an
 * The services section gives the user information on the main surgical procedures offered by the clinic including laser eye surgery (LASIK, LASEK and SMILE), cataract surgery, refractive lens exchange and implantable collmaer lenses.
 ![services](assets/doc/services.png)
 * Three images are included in a gallery at the bottom of the page showing an operating eye surgeon, doctor checking the eye with a torch and doctor examining a patient at the slit-lamp microscope.
-![threeimages](assets/doc/threepics.png)
+![three images](assets/doc/threepics.png)
 
 ### Contact
 * The contact page allows users to request an appointment for a consultation at the clinic. The user is presented with 5 boxes to input first name, last name, email address, telephone number and comments/questions. 
@@ -99,11 +99,12 @@ Submission and thank you page
 
 ### Validator
 * HTML: Errors were not found when passing through the official W3C validator
-![validator](assets/doc/index.png)
-![validator](assets/doc/service.png)
-![validator](assets/doc/contact.png)
-![validator](assets/doc/thankyou.png)
-* CSS: Errors were not found when passing through the official Jigsaw validator (DO TEST AND INSERT PIC)
+![html validator](assets/doc/index.png)
+![html validator](assets/doc/service.png)
+![html validator](assets/doc/contact.png)
+![html validator](assets/doc/thankyou.png)
+* CSS: Errors were not found when passing through the official Jigsaw validator
+![Jigsaw validator](assets/doc/validator.png)
 
 ### Accessibility
 * Adobe Color was used to test contrast for accessibility. ![adobe colour contrast test](assets/doc/Adobecolor.png)
@@ -130,6 +131,7 @@ An error was found with the footer since the h3 ("Follow Wave Eye Clinic") was p
 * [Font Awesome](https://fontawesome.com/) - font and icon toolkit
 * [Google Fonts](https://fonts.google.com/about) - used to importing the fonts on the website
 * [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/) - used for troubleshooting and testing features, and to solve issues with responsiveness and styling
+* [Multi Device Website Mockup Generator](https://techsini.com/multi-mockup/) - used to show website on range of devices
 
 ## Deployment
 
@@ -155,6 +157,39 @@ The following git commands were used to push code to the remote repository:
 
 
 ## Credits
+
+I would like to thank my mentor Gareth McGirr especially for advice regarding flexbox and the readme template. Chris Quinn gave valuable general information in the teaching sessions and especially helped with advice on the action attribute in the form tag of my HTML
+
+### Content
+Logo was designed on [Free Logo Design](https://www.freelogodesign.org/)
+
+Instructions on how to use FlexBox to split text in three columns on the About us page was provided by [The Wheelchair Guy](https://www.youtube.com/watch?v=Q1d-1FzdXEE), and [Cem Eygi Media](https://www.youtube.com/watch?v=qXRYMdvq_Dc).
+
+The website icons were provided by [Font Awesome](https://fontawesome.com/)
+
+### Media
+All images and youtube videos are used here for educational purposes and there were no known copyright issues.
+
+The brown eyes image on the index page was provided by the educational website [All About Vision](https://www.allaboutvision.com/conditions/eye-color-brown.htm) 
+
+The LASIK animation was provided by [Vold Vision](https://www.youtube.com/watch?v=j9SANdddTlo&t=1s)
+
+The cataract surgery animation was provided by [Fauquier ENT](https://www.youtube.com/watch?v=gRj6J0AGpPs)
+
+
+Image of surgeon operating was provided by [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:U.S._Air_Force_Maj._Matthew_Caldwell,_foreground_right,_a_cornea_and_refractive_surgeon_with_the_59th_Medical_Wing,_performs_cataract_surgery_June_5,_2013,_during_New_Horizons_2013_at_the_Southern_Regional_130605-F-FO324-008.jpg_eye_surugery)
+
+Young Caucasian girl getting an eye examination picture taken from [Rawpixel](https://www.rawpixel.com/image/259737/girl-getting-eye-exam)
+
+
+The image of the patient at the slit-lamp microscope was taken from the website of [Ekol International Hospitals](https://www.ekolhospitals.com/assets/upload/930185_8950-8251.jpg)
+
+
+
+
+
+
+
 
 
 

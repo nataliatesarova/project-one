@@ -38,13 +38,12 @@ nav {
     justify-content: flex-end;}
 
  /* Responsive layout - makes a one column layout instead of a two-column layout */
- @media (max-width: 100%) {
+ @media (max-width:350px) {
     .flex-container {
         display: flex;
         flex-direction: row;
       } 
-    
-    }
+ }   
   
 
 nav ul{ 
@@ -89,12 +88,12 @@ nav ul li a:hover {
     
 }
 
-@media screen and (max-width:750px)
+@media screen and (max-width:750px){
   .nav-bar {
-    aligh-items:center;
+              align-items:center;}
 
   }
-
+  
   nav > ul {
     /* float:0; */
     margin:0;
@@ -348,8 +347,8 @@ footer {
     }
 
     nav > ul {
-        float:  0;
-        margin: 0;
+        float:none;
+        margin:0
     }
     
 }
@@ -388,7 +387,7 @@ flex-container {
     height:322px;}
 
 nav {
-    align-items: right;
+    text-align: right;
 }
 
 .container-contact {
@@ -438,10 +437,10 @@ iframe {
     margin-top:23px;} 
 
 
-}
-.contact {
+
+ .contact {
     margin-left: 50px;
-}
+} 
 
 /* #logo img {
     
@@ -451,6 +450,7 @@ iframe {
 } */
 
 
-nav logo {text-align: center;
-    
+ nav logo {
+    text-align:center;}
+ 
 }
