@@ -1,5 +1,5 @@
 # Wave Eye Clinic
-Wave Eye clinic is an ophthalmic surgery centre which offers laser refractive and lens surgery. The website aims to gives prospective patients the essential information about the practice and surgeons, surgical procedures and finance options. Patients are also able to submit contact details to arrange an consultation. View the live site [here](https://nataliatesarova.github.io/project-one/index.html)
+Wave Eye clinic is an ophthalmic surgery centre which offers laser refractive and lens surgery. The website aims to gives prospective patients the essential information about the practice and surgeons, surgical procedures and finance options. Patients are also able to submit contact details to arrange an consultation. View the live site [here](https://nataliatesarova.github.io/project-one/index.html).
 
 ![multiple screens](assets/doc/monitor.png)
 
@@ -25,7 +25,7 @@ Wave Eye clinic is an ophthalmic surgery centre which offers laser refractive an
 
 ### Emphasis of clinic attributes
 * The high quality of the surgeons and surgical equipment, and finance options are briefly summarised in three headed columns. 
-![three paragraph of text](assets/doc/threeparagraph.png)
+![Three coulmns of text](assets/doc/threeparagraph.png)
 
 ### Footer
 * The footer contains the icons and links to the clinic's social media sites on Facebook, Instagram, YouTube and Twitter that will open in new tabs. 
@@ -40,9 +40,10 @@ Wave Eye clinic is an ophthalmic surgery centre which offers laser refractive an
 
 ### Contact
 * The contact page allows users to request an appointment for a consultation at the clinic. The user is presented with 5 boxes to input first name, last name, email address, telephone number and comments/questions. 
-* On pushing the send button a new page is opened stating 'Thank you for contacting us. We will reply shortly'. (INSERT PIC OF THANK YOU PAGE)
 * The clinic address and telephone number are also presented on the contact page allowing another mode of contact.
 ![request an appointment](assets/doc/contactpage.png)
+* On pushing the send button a new page is opened stating 'Thank you for contacting us. We will reply shortly'.
+![thank you page](assets/doc/Thankyoupage.png)
 
 ### Features left to implement
 * A possible future enhancement would be to add javascript to send an email directly to the Wave Eye Clinic.
@@ -63,14 +64,14 @@ The background color on the header and footer was pink RGB (255,182, 193). Font 
 * Times font
 
 ### Logo
-Logo was designed on [Free Logo Design](https://www.freelogodesign.org/) and incorporated into the header
+Logo was designed on [Free Logo Design](https://www.freelogodesign.org/) and incorporated into the header.
+
 ![logo](assets/doc/logo.png)
 
 ### Images
 The source of all images are provided in the credit section
 
 ### Balsamiq frameworks
-
 Home page
 ![wireframe desktop computer](assets/doc/squareaboutus.png)
 
@@ -92,7 +93,6 @@ Submission and thank you page
 ![wireframe mobile phone](assets/doc/thankyoum.png)
 
 ## Testing
-
 ### Responsiveness
 * All pages were tested for resposiveness on 320px and up using the developer tools. The web site was tested on Google Chrome, Safari, Mozilla Firefox, Microsoft Edge and Opera browsers with iPhone SE, iPhone 14 Pro, iPhone 14 Pro Max, Samsung Galaxy S8+, Ipad Air devices.
 * The web site opened as expected with no responsive issues in all cases apart from the navigation bar appearing too crowded on the smaller device screens. This issue was fixed by decreasing the navigation bar text font size.
@@ -109,15 +109,15 @@ Submission and thank you page
 ### Accessibility
 * Adobe Color was used to test contrast for accessibility. ![adobe colour contrast test](assets/doc/Adobecolor.png)
 * Lighthouse in the Chrome Developer Tools was used to test website performance, accessibility, best practices and SEO. 
-![](assets/doc/lighthouseabout.png)
-![](assets/doc/lighthouseservices.png)
-![](assets/doc/lighthouserequest.png)
-![](assets/doc/Screenshot%202023-01-22%20at%2019.24.28.png)
+![lighthouse](assets/doc/lighthouseabout.png)
+![lighthouse](assets/doc/lighthouseservices.png)
+![lighthouse](assets/doc/lighthouserequest.png)
+![lighthouse](assets/doc/Screenshot%202023-01-22%20at%2019.24.28.png)
 * Manual testing was also performed
 
 ### Bugs
-An error was found with the footer since the h3 ("Follow Wave Eye Clinic") was placed in the ul. This was fixed by moving the h3 above the ul. 
-A Parse error was observed with CSS Jigsaw validator since a curly bracket was omitted. This error was rectified on addition the bracket.
+* An error was found with the footer since the h3 ("Follow Wave Eye Clinic") was placed in the ul. This was fixed by moving the h3 above the ul. 
+* A Parse error was observed with the CSS Jigsaw validator since a curly bracket was omitted. This error was rectified on addition of the bracket.
 
 ## Technologies used
 ### Languages
@@ -135,7 +135,6 @@ A Parse error was observed with CSS Jigsaw validator since a curly bracket was o
 * [Multi Device Website Mockup Generator](https://techsini.com/multi-mockup/) - used to show website on range of devices
 
 ## Deployment
-
 ### Version control
 The site was created using Visual Studio Code editor (Microsoft) and pushed to github to the remote repository ‘ADD NAME’.
 
@@ -148,7 +147,6 @@ The following git commands were used to push code to the remote repository:
 ```git push``` - This command pushed all committed code to the remote repository on github.
 
 ### Deployment to Github Pages
-
 * The site was deployed to GitHub pages. Deployment requires the following steps: 
   - In the GitHub repository, navigate to the Settings tab 
   - From the menu on left select 'Pages'
@@ -157,20 +155,14 @@ The following git commands were used to push code to the remote repository:
   - A live link will be displayed in a green banner when published successfully. The live link is available [here](https://github.com/nataliatesarova/project-one)
 
 ### How to Clone 
-
-To clone on the repository
-* Click on the Code button above the repository files.
-* A drop-down will appear and choose either: HTTP, SSH or GitHub CLI
-* Go to your terminal and decide where you want to clone the files.
-* Use the copy/paste button and copy it into your terminal
-* You also have the option to download a ZIP file of the code
-
-
-
+* To clone a repository from GitHub to your local machine.
+  - In the GitHub repository click the Code button above the repository files.
+  - Copy the URL for the repository and choose either: HTTP, SSH or GitHub CLI.
+  - Open your terminal and change the current working directory to the location where you would like the cloned directory.
+  - Type ```git clone```, paste the URL copied earlier and press enter.
 
 ## Credits
-
-I would like to thank my mentor Gareth McGirr especially for advice regarding flexbox and the readme template. Chris Quinn gave valuable general information in the teaching sessions and especially helped with advice on the action attribute in the form tag of my HTML and Dr. Nakul Mandal for providing me information about eye surgery.
+I would like to thank my mentor Gareth McGirr especially for advice regarding flexbox and the readme template. Chris Quinn gave valuable general information in the Code Institute teaching sessions and especially helped with advice on the action attribute in the form tag of my HTML. I am grateful for the ophthalmic surgery advice provided by Mr Nakul Mandal, Consultant Ophthalmic surgeon, Galway Clinic.
 
 ### Content
 Logo was designed on [Free Logo Design](https://www.freelogodesign.org/)
@@ -188,11 +180,9 @@ The LASIK animation was provided by [Vold Vision](https://www.youtube.com/watch?
 
 The cataract surgery animation was provided by [Fauquier ENT](https://www.youtube.com/watch?v=gRj6J0AGpPs)
 
-
 Image of surgeon operating was provided by [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:U.S._Air_Force_Maj._Matthew_Caldwell,_foreground_right,_a_cornea_and_refractive_surgeon_with_the_59th_Medical_Wing,_performs_cataract_surgery_June_5,_2013,_during_New_Horizons_2013_at_the_Southern_Regional_130605-F-FO324-008.jpg_eye_surugery)
 
 Young Caucasian girl getting an eye examination picture taken from [Rawpixel](https://www.rawpixel.com/image/259737/girl-getting-eye-exam)
-
 
 The image of the patient at the slit-lamp microscope was taken from the website of [Ekol International Hospitals](https://www.ekolhospitals.com/assets/upload/930185_8950-8251.jpg)
 
