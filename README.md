@@ -117,6 +117,7 @@ Submission and thank you page
 
 ### Bugs
 An error was found with the footer since the h3 ("Follow Wave Eye Clinic") was placed in the ul. This was fixed by moving the h3 above the ul. 
+A Parse error was observed with CSS Jigsaw validator since a curly bracket was omitted. This error was rectified on addition the bracket.
 
 ## Technologies used
 ### Languages
@@ -155,10 +156,21 @@ The following git commands were used to push code to the remote repository:
   - Click 'Save'
   - A live link will be displayed in a green banner when published successfully. The live link is available [here](https://github.com/nataliatesarova/project-one)
 
+### How to Clone 
+
+To clone on the repository
+* Click on the Code button above the repository files.
+* A drop-down will appear and choose either: HTTP, SSH or GitHub CLI
+* Go to your terminal and decide where you want to clone the files.
+* Use the copy/paste button and copy it into your terminal
+* You also have the option to download a ZIP file of the code
+
+
+
 
 ## Credits
 
-I would like to thank my mentor Gareth McGirr especially for advice regarding flexbox and the readme template. Chris Quinn gave valuable general information in the teaching sessions and especially helped with advice on the action attribute in the form tag of my HTML
+I would like to thank my mentor Gareth McGirr especially for advice regarding flexbox and the readme template. Chris Quinn gave valuable general information in the teaching sessions and especially helped with advice on the action attribute in the form tag of my HTML and Dr. Nakul Mandal for providing me information about eye surgery.
 
 ### Content
 Logo was designed on [Free Logo Design](https://www.freelogodesign.org/)
