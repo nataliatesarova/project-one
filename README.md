@@ -1,5 +1,5 @@
 # Wave Eye Clinic
-Wave Eye clinic is an ophthalmic surgery centre which offers laser refractive and lens surgery. The website aims to gives prospective patients the essential information about the practice and surgeons, surgical procedures and finance options. Patients are also able to submit contact details to arrange an consultation. View the live site [here](https://nataliatesarova.github.io/project-one/index.html).
+Wave Eye clinic is an ophthalmic surgery centre which offers laser refractive and lens surgery. The website aims to gives prospective patients the essential information about the practice and surgeons, surgical procedures and finance options. Patients are also able to submit contact details to arrange a consultation. View the live site [here](https://nataliatesarova.github.io/project-one/index.html).
 
 ![multiple screens](assets/doc/monitor.png)
 
@@ -13,7 +13,7 @@ Wave Eye clinic is an ophthalmic surgery centre which offers laser refractive an
 ![brown eyes image](assets/doc/brown-eyes.jpeg)
 
 ### The landing page image
-* The landing page has a pleasant image of a woman's eyes which immediately tells the viewer that the site is ophthalmic. The image of eyes literally makes eye contact with the user.
+* The landing page has a pleasant image of a woman's eyes which immediately tells the viewer that they have arrived at an ophthalmology site. The eyes literally make direct eye contact with the user.
 
 ### Introduction to the clinic and main surgeon
 * Information on the educational and training background of the principle surgeon and clinic owner, and the high level of care and treatment that patients can expect.
@@ -35,11 +35,11 @@ Wave Eye clinic is an ophthalmic surgery centre which offers laser refractive an
 ### Services
 * The services section gives the user information on the main surgical procedures offered by the clinic including laser eye surgery (LASIK, LASEK and SMILE), cataract surgery, refractive lens exchange and implantable collmaer lenses.
 ![services](assets/doc/services.png)
-* Three images are included in a gallery at the bottom of the page showing an operating eye surgeon, doctor checking the eye with a torch and doctor examining a patient at the slit-lamp microscope.
+* Three images are included in a gallery at the bottom of the page showing an operating eye surgeon, doctor checking the eye with a torch, and doctor examining a patient at the slit-lamp microscope.
 ![three images](assets/doc/threepics.png)
 
 ### Contact
-* The contact page allows users to request an appointment for a consultation at the clinic. The user is presented with 5 boxes to input first name, last name, email address, telephone number and comments/questions. 
+* The contact page allows users to request an appointment for a consultation at the clinic. The user is presented with 5 fields to input first name, last name, email address, telephone number and comments/questions. 
 * The clinic address and telephone number are also presented on the contact page allowing another mode of contact.
 ![request an appointment](assets/doc/contactpage.png)
 * On pushing the send button a new page is opened stating 'Thank you for contacting us. We will reply shortly'.
@@ -50,14 +50,14 @@ Wave Eye clinic is an ophthalmic surgery centre which offers laser refractive an
 
 ### Accesibility
 * Use of semantic HTML.
-* Use of ARIA labels allowing ientification by by screen readers.
+* Use of ARIA labels allowing ientification by screen readers.
 * Use of alt attributes to provide alternative information for users.
-* Use Adobe Color to check colour contrast.
+* Use of Adobe Color to check colour contrast.
 * Color contrasts meet the standards specified in [WCAG 2.1 contrast guidelines](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html).
 
 ##  Design
 ### Color scheme
-The background color on the header and footer is pink RGB (255,182, 193). The font color in header, footer, and headings is brown RGB (130, 65, 18).
+The background color on the header and footer is pink RGB (255,182,193). The font color in the header, footer, and headings is brown RGB (130,65,18). The main text is black RGB (0,0,0) on white RGB (255,255,255) background. 
 
 ### Typography
 * Raleway font from Google fonts.
@@ -74,27 +74,26 @@ The source of all images are provided in the credit section.
 ### Balsamiq frameworks
 Home page
 ![wireframe desktop computer](assets/doc/squareaboutus.png)
-
 ![wireframe mobile phone](assets/doc/aboutusm.png)
+
 
 Services page
 ![wireframe desktop computer](assets/doc/squareservice.png)
-
 ![wireframe mobile phone](assets/doc/maboutus.png)
+
 
 Contact Page
 ![wireframe desktop computer](assets/doc/requestsquare.png)
-
 ![wireframe mobile phone](assets/doc/requestm.png)
+
 
 Submission and thank you page
 ![wireframe desktop computer](assets/doc/squarethankyou.png)
-
 ![wireframe mobile phone](assets/doc/thankyoum.png)
 
 ## Testing
 ### Responsiveness
-* All pages were tested and found to be resposive using [TechSini Multi device Website Mockup Generator](https://techsini.com/multi-mockup/) and Google Chrome DevTools. Initially the navigation bar appeared too crowded on the smaller device screens. This issue was fixed by decreasing the navigation bar text font size. The web site was tested on Google Chrome, Safari, Mozilla Firefox, Microsoft Edge and Opera browsers with iPhone SE, iPhone 14 Pro, iPhone 14 Pro Max, Samsung Galaxy S8+, Ipad Air devices. Pass.
+* All pages were tested and found to be resposive using [TechSini Multi device Website Mockup Generator](https://techsini.com/multi-mockup/) and Google Chrome DevTools. The web site was tested on Google Chrome, Safari, Mozilla Firefox, Microsoft Edge and Opera browsers with iPhone SE, iPhone 14 Pro, iPhone 14 Pro Max, Samsung Galaxy S8+, Ipad Air devices. Pass.
 
 ### Validator
 * HTML: Errors were not found when passing through the official W3C validator.
@@ -117,15 +116,15 @@ The 75% best practices was due to the landing page image being adequate but not 
 
 ### Bugs
 * An error was found with the footer since the h3 ("Follow Wave Eye Clinic") was placed in the ul. This was fixed by moving the h3 above the ul. 
-* A Parse error was observed with the CSS Jigsaw validator since a curly bracket was omitted. This error was rectified on addition of the bracket.
+* A parse error was observed with the CSS Jigsaw validator since a curly bracket was omitted. This error was rectified on addition of the bracket.
 
 ### Manual testing
 
 Navigation bar
-  - About us - When selected, the page is redirected to the home page, the text is highlighted when hovered. Pass.
-  - Services - When selected, the page is redirected to the Services page. The text is highlighted when hovered and stays like that when in the page. Pass.
-Contact - When selected, the page is redirected to the request appointment page. The text is highlighted when hovered. Pass.
-  - Logo- appears on all pages and is responsive. Pass.
+  - About us - When selected, the page is redirected to the home page, the text is underlined when hovered. Pass.
+  - Services - When selected, the page is redirected to the Services page. The text is underlined when hovered. Pass.
+  - Contact - When selected, the page is redirected to the request appointment page. The text is underlined when hovered. Pass.
+  - Logo - appears on all pages and is responsive. Pass.
 
 Text
   - Confirm that text fonts were loaded and were responsive to different screen sizes. Pass.
@@ -177,7 +176,7 @@ The following git commands were used to push code to the remote repository:
   - From the menu on left select 'Pages'
   - From the source section drop-down menu, select the Branch: main
   - Click 'Save'
-  - A live link will be displayed in a green banner when published successfully. The live link is available [here](https://github.com/nataliatesarova/project-one)
+  - A link will be displayed in a green banner when published successfully. The link is available [here](https://github.com/nataliatesarova/project-one)
 
 ### How to Clone 
 * To clone a repository from GitHub to your local machine.
@@ -187,7 +186,7 @@ The following git commands were used to push code to the remote repository:
   - Type ```git clone```, paste the URL copied earlier and press enter.
 
 ## Credits
-I would like to thank my mentor Gareth McGirr especially for advice regarding flexbox and the readme template. Chris Quinn gave valuable general information in the Code Institute teaching sessions and especially helped with advice on the action attribute in the form tag of my HTML. I am grateful for the ophthalmic surgery advice provided by Mr Nakul Mandal, Consultant Ophthalmic Surgeon, Galway Clinic.
+I would like to thank my mentor Gareth McGirr especially for advice regarding flexbox and the readme template. Chris Quinn gave valuable information in the Code Institute teaching sessions and especially helped with advice on the action attribute in the form tag of my HTML. I am grateful for the ophthalmology information provided by Mr Nakul Mandal, Consultant Ophthalmic Surgeon, Galway Clinic.
 
 ### Content
 Logo was designed on [Free Logo Design](https://www.freelogodesign.org/)
