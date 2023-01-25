@@ -49,27 +49,27 @@ Wave Eye clinic is an ophthalmic surgery centre which offers laser refractive an
 * A possible future enhancement would be to add javascript to send an email directly to the Wave Eye Clinic.
 
 ### Accesibility
-* Use of semantic HTML
-* Use of ARIA labels allowing ientification by by screen readers
-* Use of alt attributes to provide alternative information for users
-* Use Adobe Color to check colour contrast
-* Color contrasts meet the standards specified in [WCAG 2.1 contrast guidelines](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html)
+* Use of semantic HTML.
+* Use of ARIA labels allowing ientification by by screen readers.
+* Use of alt attributes to provide alternative information for users.
+* Use Adobe Color to check colour contrast.
+* Color contrasts meet the standards specified in [WCAG 2.1 contrast guidelines](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html).
 
 ##  Design
 ### Color scheme
-The background color on the header and footer was pink RGB (255,182, 193). Font color in header, footer, and headings was brown RGB (130, 65, 18).
+The background color on the header and footer is pink RGB (255,182, 193). The font color in header, footer, and headings is brown RGB (130, 65, 18).
 
 ### Typography
-* Raleway font from Google fonts
-* Times font
+* Raleway font from Google fonts.
+* Times font.
 
 ### Logo
-Logo was designed on [Free Logo Design](https://www.freelogodesign.org/) and incorporated into the header.
+The logo was designed on [Free Logo Design](https://www.freelogodesign.org/) and incorporated into the header.
 
 ![logo](assets/doc/logo.png)
 
 ### Images
-The source of all images are provided in the credit section
+The source of all images are provided in the credit section.
 
 ### Balsamiq frameworks
 Home page
@@ -94,45 +94,70 @@ Submission and thank you page
 
 ## Testing
 ### Responsiveness
-* All pages were tested for resposiveness on 320px and up using the developer tools. The web site was tested on Google Chrome, Safari, Mozilla Firefox, Microsoft Edge and Opera browsers with iPhone SE, iPhone 14 Pro, iPhone 14 Pro Max, Samsung Galaxy S8+, Ipad Air devices.
-* The web site opened as expected with no responsive issues in all cases apart from the navigation bar appearing too crowded on the smaller device screens. This issue was fixed by decreasing the navigation bar text font size.
+* All pages were tested and found to be resposive using [TechSini Multi device Website Mockup Generator](https://techsini.com/multi-mockup/) and Google Chrome DevTools. Initially the navigation bar appeared too crowded on the smaller device screens. This issue was fixed by decreasing the navigation bar text font size. The web site was tested on Google Chrome, Safari, Mozilla Firefox, Microsoft Edge and Opera browsers with iPhone SE, iPhone 14 Pro, iPhone 14 Pro Max, Samsung Galaxy S8+, Ipad Air devices. Pass.
 
 ### Validator
-* HTML: Errors were not found when passing through the official W3C validator
+* HTML: Errors were not found when passing through the official W3C validator.
 ![html validator](assets/doc/index.png)
 ![html validator](assets/doc/service.png)
 ![html validator](assets/doc/contact.png)
 ![html validator](assets/doc/thankyou.png)
-* CSS: Errors were not found when passing through the official Jigsaw validator
+* CSS: No Errors were found when passing through the official Jigsaw validator at the final check.
 ![Jigsaw validator](assets/doc/validator.png)
 
 ### Accessibility
-* Adobe Color was used to test contrast for accessibility. ![adobe colour contrast test](assets/doc/Adobecolor.png)
-* Lighthouse in the Chrome Developer Tools was used to test website performance, accessibility, best practices and SEO. 
+* Adobe Color was used to test contrast for accessibility. 
+![adobe colour contrast test](assets/doc/Adobecolor.png)
+* Lighthouse in the Chrome Developer Tools was used to test website performance, accessibility, and adherance to best practices and search engine optimization (SEO) advice. 
 ![lighthouse](assets/doc/lighthouseabout.png)
 ![lighthouse](assets/doc/lighthouseservices.png)
 ![lighthouse](assets/doc/lighthouserequest.png)
 ![lighthouse](assets/doc/Screenshot%202023-01-22%20at%2019.24.28.png)
-* Manual testing was also performed
+The 75% best practices was due to the landing page image being adequate but not ideal ratio and resoloution. The image was retained since it was responsive across devices and was my preferred image for the website.
 
 ### Bugs
 * An error was found with the footer since the h3 ("Follow Wave Eye Clinic") was placed in the ul. This was fixed by moving the h3 above the ul. 
 * A Parse error was observed with the CSS Jigsaw validator since a curly bracket was omitted. This error was rectified on addition of the bracket.
 
+### Manual testing
+
+Navigation bar
+  - About us - When selected, the page is redirected to the home page, the text is highlighted when hovered. Pass.
+  - Services - When selected, the page is redirected to the Services page. The text is highlighted when hovered and stays like that when in the page. Pass.
+Contact - When selected, the page is redirected to the request appointment page. The text is highlighted when hovered. Pass.
+  - Logo- appears on all pages and is responsive. Pass.
+
+Text
+  - Confirm that text fonts were loaded and were responsive to different screen sizes. Pass.
+
+Images
+  - Check all images were loaded correctly and were responsive to different screen sizes. Pass.
+
+Footer
+ - Facebook – When clicking the icon, the Facebook page opens in a new tab. Pass.
+ - Instagram - When clicking the icon, the Instagram page opens in a new tab. Pass.
+ - YouTube - When clicking the icon, the YouTube page opens in a new tab. Pass.
+ - Twitter - When clicking the icon, the Twitter page opens in a new tab. Pass.
+
+Contact Form
+  - Check that the form size was responsive to different screens sizes. Pass.
+  - Check data can be correctly entered into the form input fields. Pass. 
+  - Check that pressing the submit button redirects to 'Thank you for contacting us. We will reply shortly' page. Pass.
+
 ## Technologies used
 ### Languages
-* HyperText Markup language (HTML) - the standard markup language for documents designed to be displayed in a web browser
-* Cascading Style Sheets (CSS) - used to describe the presentation of the document written in HTML
+* HyperText Markup language (HTML) - the standard markup language for documents designed to be displayed in a web browser.
+* Cascading Style Sheets (CSS) - used to describe the presentation of the document written in HTML.
 
 ### Frameworks, Libraries and Programs
-* [Balsamiq](https://balsamiq.com/wireframes/)- used to create the wireframes
-* [Github](https://github.com/) - cloud based hosting service to save and store the files for webite 
-* Git - version control system
-* [Visual Studio Code](https://code.visualstudio.com/) - the website was created using Microsoft Visual Studio Code integrated development environment (IDE)
-* [Font Awesome](https://fontawesome.com/) - font and icon toolkit
-* [Google Fonts](https://fonts.google.com/about) - used to importing the fonts on the website
-* [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/) - used for troubleshooting and testing features, and to solve issues with responsiveness and styling
-* [Multi Device Website Mockup Generator](https://techsini.com/multi-mockup/) - used to show website on range of devices
+* [Balsamiq](https://balsamiq.com/wireframes/)- used to create the wireframes.
+* [Github](https://github.com/) - cloud based hosting service to save and store the files for webite.
+* Git - version control system.
+* [Visual Studio Code](https://code.visualstudio.com/) - the website was created using Microsoft Visual Studio Code integrated development environment (IDE).
+* [Font Awesome](https://fontawesome.com/) - font and icon toolkit.
+* [Google Fonts](https://fonts.google.com/about) - used to importing the fonts on the website.
+* [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/) - used for troubleshooting and testing features, and to solve issues with responsiveness and styling.
+* [Multi Device Website Mockup Generator](https://techsini.com/multi-mockup/) - used to show website on range of devices.
 
 ## Deployment
 ### Version control
@@ -162,7 +187,7 @@ The following git commands were used to push code to the remote repository:
   - Type ```git clone```, paste the URL copied earlier and press enter.
 
 ## Credits
-I would like to thank my mentor Gareth McGirr especially for advice regarding flexbox and the readme template. Chris Quinn gave valuable general information in the Code Institute teaching sessions and especially helped with advice on the action attribute in the form tag of my HTML. I am grateful for the ophthalmic surgery advice provided by Mr Nakul Mandal, Consultant Ophthalmic surgeon, Galway Clinic.
+I would like to thank my mentor Gareth McGirr especially for advice regarding flexbox and the readme template. Chris Quinn gave valuable general information in the Code Institute teaching sessions and especially helped with advice on the action attribute in the form tag of my HTML. I am grateful for the ophthalmic surgery advice provided by Mr Nakul Mandal, Consultant Ophthalmic Surgeon, Galway Clinic.
 
 ### Content
 Logo was designed on [Free Logo Design](https://www.freelogodesign.org/)
